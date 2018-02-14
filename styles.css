@@ -1,0 +1,14 @@
+body {
+	box-sizing: border-box;
+	background: #fefcfe;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	margin: 0;
+}
+
+canvas {
+	border: 1px solid purple;
+
+}
