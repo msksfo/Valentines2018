@@ -19,7 +19,7 @@ c.fillText(message, messageX, messageY);
 
 var heartsArray = [];
 
-for (var i = 0; i < 30; i++){
+for (var i = 0; i < 60; i++){
 	x = Math.floor(Math.random() * canvas.width);
 	y = Math.floor(Math.random() * canvas.height);
 	heartsArray[i] = new Heart(x, y);
@@ -70,8 +70,6 @@ function animate(){
 	c.clearRect(0, 0, canvas.width, canvas.height);
 	
 	draw();
-
-	
 	
 	c.fillText(message, messageX, messageY);
 	c.fillStyle = '#d0193b';
